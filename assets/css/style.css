@@ -1,0 +1,20 @@
+
+.row{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.G-001{
+    background-image: linear-gradient(to right bottom, #d17fbc, #e977a0, #f4777e, #f0805b, #de8f3a);
+}
+.G-002{
+background-image: linear-gradient(to right bottom, #bc4e7a, #a376c6, #4da2f1, #00c5ed, #3adec8);
+}
+
+@media all and (max-width:768px){
+    button.btn.btn-primary {
+        width: 100%;
+    }
+}
